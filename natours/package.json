@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lethisa/css/issues"
   },
-  "homepage": "https://github.com/lethisa/css#readme"
+  "homepage": "https://github.com/lethisa/css#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
