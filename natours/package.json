@@ -9,7 +9,7 @@
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer  css/style.concat.css -o css/style.prefix.css",
+    "prefix:css": "postcss  css/style.concat.css --use autoprefixer -o css/style.prefix.css",
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
@@ -30,5 +30,7 @@
     "npm-run-all": "^4.1.2",
     "postcss-cli": "^4.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "standard-loader": "git+https://github.com/ghinda/standard-loader.git#fix-string-path"
+  }
 }
