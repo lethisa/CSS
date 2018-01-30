@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume Project CSS Essentials",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lethisa/css.git"
+  },
+  "author": "lethisa",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "concat": "^1.0.3",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "postcss-cli": "^4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/lethisa/css/issues"
+  },
+  "homepage": "https://github.com/lethisa/css#readme",
+  "keywords": []
+}
