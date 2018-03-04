@@ -1,0 +1,20 @@
+body {
+  /*background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+  background: url(../img/poto-1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  /*border: border-width border-style border-color|initial|inherit;*/
+  border: 3px solid red;
+  width: 600px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50px);
+  text-align: center;
+}
